@@ -116,3 +116,18 @@ def can_split_pairs(card_one, card_two):
 
 print(can_split_pairs("Q", "K"))
 print(can_split_pairs("10", "A"))
+
+def can_double_down(card_one, card_two):
+    """
+        Determine if a blackjack player can place a double down bet.
+
+        :param card_one, card_two: str - first and second cards in hand.
+        :return: bool - can the hand be doubled down? (i.e. totals 9, 10, or 11 points).
+    """
+
+    total_cards_value = value_of_card(card_one) + value_of_card(card_two)
+
+    if 9 <= total_cards_value <= 11:
+        return True
+    else:
+        return False
