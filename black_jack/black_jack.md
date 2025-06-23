@@ -48,3 +48,11 @@ Define the **is_blackjack(<card_one>, <card_two>)** function with parameters **c
 If the players first two cards are of the same value, such as two sixes, or a **Q** and **K** a player may choose to treat them as two separate hands. This is known as "splitting pairs".
 
 Define the **can_split_pairs(<card_one>, <card_two>)** function with parameters **card_one** and **card_two**, which are a pair of cards. Determine if this two-card hand can be split into two pairs. If the hand can be split, return the boolean **True** otherwise, return **False**
+
+## Task 6
+
+### Doubling down
+
+When the original two cards dealt total 9, 10, or 11 points, a player can place an additional bet equal to their original bet. This is known as "doubling down".
+
+Define the **can_double_down(<card_one>, <card_two>)** function with parameters **card_one** and **card_two**, which are a pair of cards. Determine if the two-card hand can be "doubled down", and return the boolean **True** if it can, **False** otherwise.
