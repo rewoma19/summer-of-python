@@ -30,3 +30,15 @@ def concatenate_rounds(rounds_1, rounds_2):
 
     all_rounds = rounds_1 + rounds_2
     return all_rounds
+
+def list_contains_round(rounds, number):
+    """
+        Check if the list of rounds contains the specified number.
+
+        :param rounds: list - rounds played.
+        :param number: int - round number.
+        :return: bool - was the round played?
+    """
+
+    contains_round = number in rounds
+    return contains_round
