@@ -22,3 +22,9 @@ You want to make sure that the punctuation in the paper is perfect. Implement th
 ### Clean up spacing
 
 To make the paper look professional, unnecessary spacing needs to be removed. Implement the function **clean_up_spacing()** that takes **sentence** as a parameter. The function should remove extra whitespace at both the beginning and the end of the sentence, returning a new, updated sentence **str**.
+
+## Task 4
+
+### Replace words with a synonym
+
+To make the paper even better, you can replace some of the adjectives with their synonyms. Write the function **replace_word_choice()** that takes **sentence**, **old_world**, and **new_word** as parameters. This function should replace all instances of the **old_world** with the **new_word**, and return a new **str** with the updated sentence.
