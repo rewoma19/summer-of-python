@@ -8,3 +8,13 @@ def capitalize_title(title):
 
     capitalized_title = title.title()
     return capitalized_title
+
+def check_sentence_ending(sentence):
+    """
+        Check the ending of the sentence to verify that a period is present.
+
+        :param sentence: str - a sentence to check.
+        :return: bool - return True if punctuated correctly with period, False otherwise.
+    """
+    ends_with_period = sentence.endswith(".")
+    return ends_with_period
