@@ -17,3 +17,11 @@ Implement a function **get_rounds(<round_number>)** that takes the current round
 Elyse played a few rounds at the first table, then took a break and played some more rounds at a second table ... but ended up with a different list for each table! She wants to put the two lists together, so she can track all of the poker rounds in the same place.
 
 Implement a function **concatenate_rounds(<rounds_1>, <rounds_2>)** that takes two lists and returns a single **list** consisting of all the rounds in the first **list**, followed by all the rounds in the second **list**
+
+## Task 3
+
+### Finding Prior Rounds
+
+Talking about some of the prior Poker rounds, another player remarks how similarly two of them played out. Elyse is not sure if she played those rounds or not.
+
+Implement a function **list_contains_round(<rounds>, <round_number>)** that takes two arguments, a list of rounds played and a round number. The function will return **True** if the round is in the list of rounds played, **False** if not:
