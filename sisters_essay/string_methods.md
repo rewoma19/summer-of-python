@@ -16,3 +16,9 @@ Implement the function **capitalize_title(<title>)** which takes a title **str**
 ### Check if each sentence ends with a period
 
 You want to make sure that the punctuation in the paper is perfect. Implement the function **check_sentence_ending()** that takes **sentence** as a parameter. This function should return a **bool**.
+
+## Task 3
+
+### Clean up spacing
+
+To make the paper look professional, unnecessary spacing needs to be removed. Implement the function **clean_up_spacing()** that takes **sentence** as a parameter. The function should remove extra whitespace at both the beginning and the end of the sentence, returning a new, updated sentence **str**.
