@@ -18,3 +18,14 @@ def check_sentence_ending(sentence):
     """
     ends_with_period = sentence.endswith(".")
     return ends_with_period
+
+def clean_up_spacing(sentence):
+    """
+        Verify that there is not any whitespace at the start and end of the sentence.
+
+        :param sentence: str - a sentence to clean of leading and trailing space characters.
+        :return: str - a sentence that has been cleaned of leading and trailing space characters.
+    """
+
+    cleaned_up_sentence = sentence.strip()
+    return cleaned_up_sentence
