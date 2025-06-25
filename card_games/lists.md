@@ -25,3 +25,11 @@ Implement a function **concatenate_rounds(<rounds_1>, <rounds_2>)** that takes t
 Talking about some of the prior Poker rounds, another player remarks how similarly two of them played out. Elyse is not sure if she played those rounds or not.
 
 Implement a function **list_contains_round(<rounds>, <round_number>)** that takes two arguments, a list of rounds played and a round number. The function will return **True** if the round is in the list of rounds played, **False** if not:
+
+## Task 4
+
+### Averaging Card Values
+
+Elyse wants to try out a new game called Black Joe. It's similar to Black Jack - where your goal is to have the cards in your hand add up to a target value - but in Black Joe, the goal is to get the average of the card values to be 7. The average can be found by summing up all the card values and then dividing that sum by the number of cards in the hand.
+
+Implement a function **card_average(<hand>)** that will return the average value of a hand of Black Joe.
