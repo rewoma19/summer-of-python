@@ -10,3 +10,9 @@ You have four tasks to clean up and modify strings.
 
 Any good paper needs a properly formatted title.
 Implement the function **capitalize_title(<title>)** which takes a title **str** as a parameter and capitalizes the first letter of each word. This function should return a **str** in title case.
+
+## Task 2
+
+### Check if each sentence ends with a period
+
+You want to make sure that the punctuation in the paper is perfect. Implement the function **check_sentence_ending()** that takes **sentence** as a parameter. This function should return a **bool**.
