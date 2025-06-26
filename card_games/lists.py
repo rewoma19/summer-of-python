@@ -100,3 +100,15 @@ def average_even_is_average_odd(hand):
     avg_of_odd_cards = sum(oddly_indexed_cards) / len(oddly_indexed_cards)
 
     return avg_of_even_cards == avg_of_odd_cards
+
+def maybe_double_last(hand):
+    """
+        Multiply a Jack card value in the last index position by 2.
+
+        :param hand: list - cards in hand.
+        :return: list - hand with Jacks (if present) value doubled.
+    """
+    if hand[-1] == 11:
+        hand[-1] *= 2
+
+    return hand
