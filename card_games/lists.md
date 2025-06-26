@@ -48,3 +48,11 @@ Implement the function **approx_average_is_average(<hand>)**, given **hand**, a 
 
 Return **True** if either one **or** both of the above named strategies result in a number equal to the actual average.
 Note: The length of all hands are odd, to make finding a median easier.
+
+## Task 6
+
+### More Averaging Techniques
+
+Intrigued by the results of her averaging experiment, Elyse is wondering if taking the average of the cards at the even position versus the average of the cards at the odd positions would give the same results. Time for another test function!
+
+Implement a function **average_even_is_average_odd(<hand>)** that returns a Boolean indicating if the average of the cards at even indexes is the same as the average of the cards at the odd indexes.
