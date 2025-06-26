@@ -56,3 +56,11 @@ Note: The length of all hands are odd, to make finding a median easier.
 Intrigued by the results of her averaging experiment, Elyse is wondering if taking the average of the cards at the even position versus the average of the cards at the odd positions would give the same results. Time for another test function!
 
 Implement a function **average_even_is_average_odd(<hand>)** that returns a Boolean indicating if the average of the cards at even indexes is the same as the average of the cards at the odd indexes.
+
+## Task 7
+
+### Bonus Round Rules
+
+Every 11th hand in Black Joe is a bonus hand with a bonus rule: if the last card you draw is a Jack, you double its value.
+
+Implement a function **maybe_double_last(<hand>)** that takes a hand and checks if the last card is a Jack (11). If the last card is a Jack (11), double its value before returning the hand.
