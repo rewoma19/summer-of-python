@@ -79,3 +79,24 @@ def approx_average_is_average(hand):
 print(approx_average_is_average([1, 2, 3]))
 print(approx_average_is_average([2, 3, 4, 8, 8]))
 print(approx_average_is_average([1, 2, 3, 5, 9]))
+
+def average_even_is_average_odd(hand):
+    """
+        Return if the (average of even indexed card values) == (average of odd indexed card values).
+
+        :param hand: list - cards in hand.
+        :return: bool - are even and odd averages equal?
+    """
+    evenly_indexed_cards = list()
+    oddly_indexed_cards = list()
+
+    for index, card in enumerate(hand):
+        if index % 2 == 0:
+            evenly_indexed_cards.append(card)
+        else:
+            oddly_indexed_cards.append(card)
+
+    avg_of_even_cards = sum(evenly_indexed_cards) / len(evenly_indexed_cards)
+    avg_of_odd_cards = sum(oddly_indexed_cards) / len(oddly_indexed_cards)
+
+    return avg_of_even_cards == avg_of_odd_cards
