@@ -17,3 +17,11 @@ Create the function **round_scores(student_scores)** that takes a **list** of **
 As you were grading the exam, you noticed some students weren't performing as well as you had hoped. But you were distracted, and forgot to note exactly how many students.
 
 Create the function **count_failed_students(student_scores)** that takes a **list** of **student_scores**. This function should count up the number of student who dont't have passing scores and return that count as an integer. A student needs a score greater than **40** to achieve a passing grade on the exam.
+
+## Task 3
+
+### The "Best"
+
+The teacher you're assisting wants to find the group of students who've performed "the best" on this exam. What qualifies as "the best" fluctuates, so you need to find the student scores that are **greater than or equal to** the current threshold.
+
+Create the function **above_threshold(student_scores, threshold)** taking **student_scores** (a **list** of grades), and **threshold** (the "top score" threshold) as parameters. This function should return a **list** of all scores that are **>=** to threshold.
