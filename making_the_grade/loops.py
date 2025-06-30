@@ -17,3 +17,19 @@ def round_scores(student_scores):
 
     return rounded_scores
 
+def count_failed_students(student_scores):
+    """
+        Count the number of failing students out of the group provided.
+
+        :param student_scores: list - containing int student scores.
+        :return: int - count of student scores at or below 40.
+    """
+
+    students_with_failed_grade = 0
+
+    for score in student_scores:
+        if score <= 40:
+            students_with_failed_grade += 1
+
+    return students_with_failed_grade
+
