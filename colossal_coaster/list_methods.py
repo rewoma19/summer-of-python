@@ -58,3 +58,15 @@ def remove_the_mean_person(queue, person_name):
     queue.remove(person_name)
     return queue
 
+def how_many_namefellows(queue, person_name):
+    """
+        Count how many times the provided name appears in the queue.
+
+        :param queue: list - names in the queue.
+        :param person_name: str - name you wish to count or track.
+        :return: int - the number of times the name appears in the queue.
+    """
+
+    num_of_namefellows = queue.count(person_name)
+    return num_of_namefellows
+
