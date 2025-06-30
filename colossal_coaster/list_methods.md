@@ -33,3 +33,19 @@ Define the **find_my_friend()** function that takes 2 parameters **queue** and *
 2. **friend_name** is the name of the friend whose index (place in the queue) you need to find.
 
 Remember: Indexing starts at 0 from the left, and -1 from the right.
+
+## Task 3
+
+### Can I please join them?
+
+Now that their friends have been found (in task #2 above), the late arriver would like to join them at their place in the queue.
+
+Define the **add_me_with_my_friends()** function that takes 3 parameters **queue**, **index**, and **person_name**.
+
+1. **queue** is the **list** of people standing in the queue.
+
+2. **index** is the position at which the new person should be added.
+
+3. **person_name** is the name of the person to add at the index position.
+
+Return the queue updated with the late arrrivals name.
