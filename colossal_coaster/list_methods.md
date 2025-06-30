@@ -63,3 +63,17 @@ Define the **remove_the_mean_person()** function that takes 2 parameters **queue
 2. **person_name** is the name of the person that needs to be kicked out.
 
 Return the queue updated without the mean person's name.
+
+## Task 5
+
+### Namefellows
+
+You may not have seen two unrelated people who look exaclty the same, but you have definitely seen unrelated people with the exact same name (namefellows)! Today, it looks like there are a lot of them in attendance. You want to know how many times a particular name occurs in the queue.
+
+Define the **how_many_namefellows()** function that takes 2 parameters **queue** and **person_name**.
+
+1. **queue** is the **list** of people standing in the queue.
+
+2. **person_name** is the name you think might occur more than once in the queue.
+
+Return the number of occurrences of **person_name**, as an **int**.
