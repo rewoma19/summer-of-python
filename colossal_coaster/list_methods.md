@@ -85,3 +85,11 @@ Return the number of occurrences of **person_name**, as an **int**.
 Sadly, it's overcrowded at the park today and you need to remove the last person in the normal line (you will give them a voucher to come back in the fast-track on another day). You will have to define the function **remove_the_last_person()** that takes 1 parameter **queue**, which is the list of people standing in the queue.
 
 You should update the **list** and also **return** the name of the person who was removed, so you can write them a voucher.
+
+## Task 7
+
+### Sort the Queue List
+
+For administrative purposes, you neeed to get all the names in a given queue in alphabetical order.
+
+Define the **sorted_names()** function that takes 1 argument, **queue**, (the **list** of people standing in the queue), and returns a **sorted** copy of the **list**.
