@@ -70,3 +70,15 @@ def how_many_namefellows(queue, person_name):
     num_of_namefellows = queue.count(person_name)
     return num_of_namefellows
 
+def remove_the_last_person(queue):
+    """
+        Remove the person in the last index from the queue and return their name.
+
+        :param queue: list - names in the queue.
+        :return: str - name that has been removed from the end of the queue.
+    """
+
+    # Since no argument is passed into the pop() method, by default, it will "POP OUT" or simply remove the last item from the list 
+    last_person = queue.pop()
+    return last_person
+
