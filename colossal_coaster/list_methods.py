@@ -32,3 +32,17 @@ def find_my_friend(queue, friend_name):
     friend_location = queue.index(friend_name)
     return friend_location
 
+def add_me_with_my_friends(queue, index, person_name):
+    """
+        Insert the late arrival's name at a specific index of the queue.
+
+        :param queue: list - names in the queue.
+        :param index: int - the index at which to add the new name.
+        :param person_name: str - the name to add.
+        :return: list - queue updated with new name.
+    """
+
+    # At index, insert person_name into the queue
+    queue.insert(index, person_name)
+    return queue
+
