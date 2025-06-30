@@ -9,3 +9,11 @@ You're a teaching assistant correcting student exams. Keeping track of results m
 While you can give "partial credit" on exam questions, overall exam scores have to be **int**s. So before you can do anything else with the class scores, you need to go through the grades and turn any **float** scores into **int**s. Lucky for you, Python has the built-in **round()** function you can use.
 
 Create the function **round_scores(student_scores)** that takes a **list** of **student_scores**. This function should consume the input **list** and **return** a new list with all the scores converted to **int**s. The order of the scores in the resulting **list** is not important.
+
+## Task 2
+
+### Non-Passing Students
+
+As you were grading the exam, you noticed some students weren't performing as well as you had hoped. But you were distracted, and forgot to note exactly how many students.
+
+Create the function **count_failed_students(student_scores)** that takes a **list** of **student_scores**. This function should count up the number of student who dont't have passing scores and return that count as an integer. A student needs a score greater than **40** to achieve a passing grade on the exam.
