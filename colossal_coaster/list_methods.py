@@ -82,3 +82,14 @@ def remove_the_last_person(queue):
     last_person = queue.pop()
     return last_person
 
+def sorted_names(queue):
+    """
+        Sort the names in the queue in alphabetical order and return the result.
+
+        :param queue: list - names in the queue.
+        :return: list - copy of the queue in alphabetical order.
+    """
+
+    sorted_queue = sorted(queue)
+    return sorted_queue
+
