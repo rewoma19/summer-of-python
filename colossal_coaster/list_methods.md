@@ -49,3 +49,17 @@ Define the **add_me_with_my_friends()** function that takes 3 parameters **queue
 3. **person_name** is the name of the person to add at the index position.
 
 Return the queue updated with the late arrrivals name.
+
+## Task 4
+
+### Mean person in the queue
+
+You just heard from the queue that there is a really mean person shoving, shouting, and making trouble. You need to throw that miscreant out for bad behavior!
+
+Define the **remove_the_mean_person()** function that takes 2 parameters **queue** and **person_name**.
+
+1. **queue** is the **list** of people standing in the queue.
+
+2. **person_name** is the name of the person that needs to be kicked out.
+
+Return the queue updated without the mean person's name.
