@@ -19,3 +19,16 @@ def add_me_to_the_queue(express_queue, normal_queue, ticket_type, person_name):
     elif ticket_type == 0:
         normal_queue.append(person_name)
         return normal_queue
+    
+def find_my_friend(queue, friend_name):
+    """
+        Search the queue for a name and return their queue position (index).
+
+        :param queue: list - names in the queue.
+        :param friend_name: str - name of friend to find.
+        :return: int - index at which the friends name was found.
+    """
+
+    friend_location = queue.index(friend_name)
+    return friend_location
+
