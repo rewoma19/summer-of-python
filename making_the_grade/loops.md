@@ -25,3 +25,12 @@ Create the function **count_failed_students(student_scores)** that takes a **lis
 The teacher you're assisting wants to find the group of students who've performed "the best" on this exam. What qualifies as "the best" fluctuates, so you need to find the student scores that are **greater than or equal to** the current threshold.
 
 Create the function **above_threshold(student_scores, threshold)** taking **student_scores** (a **list** of grades), and **threshold** (the "top score" threshold) as parameters. This function should return a **list** of all scores that are **>=** to threshold.
+
+## Task 4
+
+### Calculating Letter Grades
+
+The teacher you are assisting likes to assign letter grades as well as numeric scores. Since students rarely score 100 on an exam, the "letter grade" lower thresholds are calculated based on the highest score achieved, and increment evenly between the high score and the failing threshold of **<= 40**.
+
+Create the function **letter_grades(highest)** that takes the "highest" score on the exam as an argument, and returns a **list** of lower score thresholds for each "American style" grade interval:
+**["D", "C", "B", "A"]**
